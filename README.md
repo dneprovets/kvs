@@ -1,6 +1,6 @@
 # kvs
 
-simple key/value storage
+simple key/value storage written as an example of source code
 
 rebar get-deps
 make
