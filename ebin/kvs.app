@@ -1,0 +1,10 @@
+{application,kvs,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{kvs_app,[]}},
+              {env,[{mode,test},
+                    {production,[{data_file,"priv/data"},{flush_interval,20}]},
+                    {test,[{data_file,"priv/data"},{flush_interval,20}]}]},
+              {modules,[http_api_handler,kvs,kvs_app,kvs_sup]}]}.
